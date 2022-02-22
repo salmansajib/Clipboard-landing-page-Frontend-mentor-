@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Clipboard landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="./images/logo.svg" alt="" class="logo" />
+        <div class="header-detail">
+          <h1 class="header-title">A history of everything you copy</h1>
+          <p class="header-subtitle">
+            Clipboard allows you to track and organize everything you copy.
+            Instantly access your clipboard on all your devices.
+          </p>
+        </div>
+
+        <div class="buttons">
+          <button class="btn btn-1">Download for iOS</button>
+          <button class="btn btn-2">Download for Mac</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container main-container">
+        <section class="keep-track">
+          <div class="section-about">
+            <h2 class="title">Keep track of your snippets</h2>
+            <p class="subtitle">
+              Clipboard instantly stores any item you copy in the cloud, meaning
+              you can access your snippets immediately on all your devices. Our
+              Mac and iOS apps will help you organize everything.
+            </p>
+          </div>
+          <div class="section-detail keep-track_detail flex">
+            <img
+              src="./images/image-computer.png"
+              alt="Computer image"
+              class="computer-img"
+            />
+            <div class="info">
+              <div class="info-detail quick-search">
+                <h3 class="info-title">Quick Search</h3>
+                <p class="info-subtitle">
+                  Easily search your snippets by content, category, web address,
+                  application, and more.
+                </p>
+              </div>
+              <div class="info-detail icloud-sync">
+                <h3 class="info-title">iCloud Sync</h3>
+                <p class="info-subtitle">
+                  Instantly saves and syncs snippets across all your devices.
+                </p>
+              </div>
+              <div class="info-detail complete-history">
+                <h3 class="info-title">Complete History</h3>
+                <p class="info-subtitle">
+                  Retrieve any snippets from the first moment you started using
+                  the app.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="access">
+          <div class="section-about">
+            <h2 class="title">Access Clipboard anywhere</h2>
+            <p class="subtitle">
+              Whether you’re on the go, or at your computer, you can access all
+              your Clipboard snippets in a few simple clicks.
+            </p>
+          </div>
+          <img
+            src="./images/image-devices.png"
+            alt="Mobile and tablet"
+            class="devices-img"
+          />
+        </section>
+
+        <section class="supercharge">
+          <div class="section-about">
+            <h2 class="title">Supercharge your workflow</h2>
+            <p class="subtitle">
+              We’ve got the tools to boost your productivity.
+            </p>
+          </div>
+          <div class="section-detail section-detail_supercharge flex">
+            <div class="info-detail balcklist">
+              <img
+                src="./images/icon-blacklist.svg"
+                alt="Blacklist icon"
+                class="blacklist-icon other-icons"
+              />
+              <h3 class="info-title">Create blacklists</h3>
+              <p class="info-subtitle">
+                Ensure sensitive information never makes its way to your
+                clipboard by excluding certain sources.
+              </p>
+            </div>
+            <div class="info-detail snippets">
+              <img
+                src="./images/icon-text.svg"
+                alt="Text icon"
+                class="text-icon other-icons"
+              />
+              <h3 class="info-title">Plain text snippets</h3>
+              <p class="info-subtitle">
+                Remove unwanted formatting from copied text for a consistent
+                look.
+              </p>
+            </div>
+            <div class="info-detail preview">
+              <img
+                src="./images/icon-preview.svg"
+                alt="preview icon"
+                class="preview-icon other-icons"
+              />
+              <h3 class="info-title">Sneak preview</h3>
+              <p class="info-subtitle">
+                Quick preview of all snippets on your Clipboard for easy access.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="partners flex">
+          <img
+            src="./images/logo-google.png"
+            alt="Google logo"
+            class="partner-logo"
+          />
+          <img
+            src="./images/logo-ibm.png"
+            alt="IBM logo"
+            class="partner-logo"
+          />
+          <img
+            src="./images/logo-microsoft.png"
+            alt="Microsoft logo"
+            class="partner-logo"
+          />
+          <img src="./images/logo-hp.png" alt="HP logo" class="partner-logo" />
+          <img
+            src="./images/logo-vector-graphics.png"
+            alt="Vector graphics logo"
+            class="partner-logo"
+          />
+        </section>
+
+        <section class="clipboard">
+          <div class="section-detail">
+            <div class="section-about">
+              <h2 class="title">Clipboard for iOS and Mac OS</h2>
+              <p class="subtitle">
+                Available for free on the App Store. Download for Mac or iOS,
+                sync with iCloud and you’re ready to start adding to your
+                clipboard.
+              </p>
+            </div>
+            <div class="buttons">
+              <button class="btn btn-1">Download for iOS</button>
+              <button class="btn btn-2">Download for Mac</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <section class="main-footer flex">
+        <img src="./images/logo.svg" alt="Logo" class="footer-logo" />
+
+        <ul class="footer-lists">
+          <li><a href="">FAQs</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Press Kit</a></li>
+          <li><a href="">Install Guide</a></li>
+        </ul>
+
+        <div class="social-icons">
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-instagram"></ion-icon>
+        </div>
+      </section>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/Salman311291" target="_blank"
+          >Salman_Sajib</a
+        >.
+      </p>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
